@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-heading: 'Poppins', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+  --color-primary: #f59e0b;
+  --color-primary-hover: #d97706;
+  --color-secondary: #8b5cf6;
+  --color-dark: #0c0a09;
+  --color-dark-card: #1c1917;
+  --color-medium: #44403c;
+  --color-light: #fffbeb;
+  --color-off-white: #fef3c7;
+}

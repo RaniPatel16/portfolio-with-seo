@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rani Patel | Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;700&family=Poppins:wght@600;700;800&family=Syne:wght@400;500;600;700;800&family=Prata&family=Mr+Dafoe&display=swap" rel="stylesheet">
+
+  <!-- Celebration Script -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#6366f1',
+            secondary: '#ec4899',
+            dark: '#020617',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Outfit', 'sans-serif'],
+          },
+          animation: {
+            'spin-slow': 'spin 8s linear infinite',
+            'float': 'float 6s ease-in-out infinite',
+            'wiggle': 'wiggle 1s ease-in-out infinite',
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    .group:hover .emoji-pop-out {
+      transform: scale(2.2) rotate(-15deg) translateY(-5px) !important;
+      filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.9)) !important;
+      display: inline-block !important;
+      transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+    }
+  </style>
+</head>
+
+<body class="bg-dark selection:bg-primary/30">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
