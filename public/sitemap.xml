@@ -13,6 +13,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://ranipatel-portfolio.vercel.app/skills</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ranipatel-portfolio.vercel.app/experience</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://ranipatel-portfolio.vercel.app/projects</loc>
     <lastmod>2026-04-17</lastmod>
     <changefreq>weekly</changefreq>
