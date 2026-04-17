@@ -61,12 +61,16 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-5 justify-center md:justify-start items-center" data-aos="fade-up" data-aos-delay="400">
-            <a href="/resume.html" target="_blank" rel="noreferrer" 
-               onClick={() => {
+            <a href="/resume.html" 
+               onClick={(e) => {
+                 e.preventDefault();
+                 window.open('/resume.html', '_blank');
                  const link = document.createElement('a');
                  link.href = '/resume.html';
                  link.download = 'Rani_Patel_Resume.html';
+                 document.body.appendChild(link);
                  link.click();
+                 document.body.removeChild(link);
                }}
                className="group w-full sm:w-auto px-10 py-4 bg-gradient-to-r from-primary to-secondary text-white font-black rounded-full hover:shadow-[0_10px_40px_rgba(99,102,241,0.6)] transition-all flex items-center justify-center gap-3 magnetic-btn text-lg tracking-wide uppercase">
               View & Download <Download className="w-5 h-5 group-hover:-translate-y-1 transition-transform" />

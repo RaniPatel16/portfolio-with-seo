@@ -60,6 +60,9 @@ export default function CommandPalette({ isOpen, onClose }) {
     } else if (action.startsWith('link:')) {
       const url = action.split('link:')[1]
       if (url.includes('.html')) {
+        // Open in new tab
+        window.open(url, '_blank')
+        // Automatically trigger download
         const a = document.createElement('a')
         a.href = url
         a.download = 'resume.html'

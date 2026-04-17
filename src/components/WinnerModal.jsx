@@ -28,7 +28,7 @@ export default function WinnerModal({ isOpen, onClose }) {
           <div className="relative w-full mb-8 group relative z-10">
             <h2 className="text-2xl font-black text-center mb-4 tracking-tighter text-gradient">TEAM REPO REBOOTERS</h2>
             <div className="relative rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border-2 border-white/10 transform transition-all duration-500 group-hover:scale-[1.03] group-hover:border-primary/50 bg-slate-800">
-              <img src="/Zeelkundariyawinner.jpg.jpeg" alt="Repo Rebooster Winners" className="w-full h-auto object-contain max-h-[350px]" />
+              <img src="/winner_photo.jpg" alt="Repo Rebooster Winners" className="w-full h-auto object-contain max-h-[350px]" />
               <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none bg-gradient-to-tr from-primary/20 via-transparent to-white/10"></div>
             </div>
           </div>

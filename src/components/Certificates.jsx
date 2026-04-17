@@ -4,31 +4,31 @@ import { ExternalLink } from 'lucide-react'
 const certificates = [
   {
     img: 'https://res.cloudinary.com/dpktusyjs/image/upload/q_auto/f_auto/v1775798803/Screenshot_2026-04-09_210511_gvo8bh.png',
-    title: 'Certificate 1',
+    title: 'RepoReboot',
   },
   {
     img: 'https://res.cloudinary.com/dpktusyjs/image/upload/q_auto/f_auto/v1775798250/Screenshot_2026-04-09_210604_twvorn.png',
-    title: 'Certificate 2',
+    title: 'FinAgent Hackathon',
   },
   {
     img: 'https://res.cloudinary.com/dpktusyjs/image/upload/q_auto/f_auto/v1775798225/Screenshot_2026-04-09_210551_zrcmrk.png',
-    title: 'Certificate 3',
+    title: 'Rethink Hackathon',
   },
   {
     img: 'https://res.cloudinary.com/dpktusyjs/image/upload/q_auto/f_auto/v1775798156/Screenshot_2026-04-09_223247_ypywny.png',
-    title: 'Certificate 4',
+    title: 'CodeMatrix Genesis',
   },
   {
     img: 'https://res.cloudinary.com/dpktusyjs/image/upload/q_auto/f_auto/v1775798129/Screenshot_2026-04-09_223321_q9eue2.png',
-    title: 'Certificate 5',
+    title: 'Code Matrix Rd 1',
   },
   {
     img: 'https://res.cloudinary.com/dpktusyjs/image/upload/q_auto/f_auto/v1775798103/Screenshot_2026-04-09_223346_qtjjum.png',
-    title: 'Certificate 6',
+    title: "Hack.X'26 Final",
   },
   {
     img: 'https://res.cloudinary.com/dpktusyjs/image/upload/q_auto/f_auto/v1775798024/Screenshot_2026-04-09_223412_m0cxfw.png',
-    title: 'Certificate 7',
+    title: 'Hack For Us',
   },
 ]
 
