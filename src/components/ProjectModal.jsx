@@ -1,5 +1,5 @@
 import { X, ExternalLink } from 'lucide-react'
-import { GithubIcon, YoutubeIcon } from './BrandIcons'
+import { GithubIcon, YoutubeIcon, PostmanIcon } from './BrandIcons'
 
 export default function ProjectModal({ data, onClose }) {
   if (!data) return null
@@ -41,6 +41,12 @@ export default function ProjectModal({ data, onClose }) {
               className="px-6 py-3 rounded-full border border-slate-600 text-white font-medium hover:bg-slate-800 transition-colors flex items-center gap-2">
               <GithubIcon className="w-4 h-4" /> Source Code
             </a>
+            {data.postman && (
+              <a href={data.postman} target="_blank" rel="noreferrer"
+                className="px-6 py-3 rounded-full border border-orange-500/50 text-white font-medium hover:bg-orange-500/20 transition-colors flex items-center gap-2">
+                <PostmanIcon className="w-4 h-4 text-[#FF6C37]" /> Postman API
+              </a>
+            )}
             <a href="https://www.youtube.com/@RaniPatel-l2o" target="_blank" rel="noreferrer"
               className="px-6 py-3 rounded-full border border-red-500/50 text-white font-medium hover:bg-red-500/20 transition-colors flex items-center gap-2">
               <YoutubeIcon className="w-4 h-4 text-red-500" /> YouTube
@@ -51,3 +57,4 @@ export default function ProjectModal({ data, onClose }) {
     </div>
   )
 }
+

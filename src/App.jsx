@@ -32,6 +32,7 @@ const projectData = [
   { title: "GitHub Analyzer", desc: "A powerful tool that analyzes GitHub profiles and repositories to provide meaningful insights such as contribution activity, top languages, repository stats, and coding patterns. It helps developers evaluate performance, showcase their work, and improve their coding consistency through data-driven feedback.", img: "/github_analyzer_cover.png", tags: ['GitHub', 'API'], live: "#", repo: "https://github.com/RaniPatel16/git-anhalyzer", galleryImgs: ["/github_analyzer_cover.png", "/github_portfolio_analyzer_1_1775060421953.png", "/tech_generic_2_1775060512166.png", "/tech_generic_1_1775060487362.png", "/tech_generic_6_1775060604458.png"], auraColor: "rgba(245, 158, 11, 0.3)", scanColor: "#f59e0b", borderColor: "amber-500", tagColors: [{ bg: "amber-500", text: "amber-500" }, { bg: "stone-500", text: "stone-500" }], hoverColor: "amber-400", icon: <GithubIcon className="w-8 h-8" />, categoryLabel: "Developer Tool" },
   { title: "Ed-Learning", desc: "An interactive e-learning platform that enables users to access courses, watch video lectures, and track learning progress. It includes features like authentication, course management, and progress tracking, providing a seamless digital learning experience. Designed to make education accessible and engaging for students.", img: "/adaptive_learning_cover.png", tags: ['EdTech', 'AI'], live: "#", repo: "https://github.com/RaniPatel16/ed-learning", galleryImgs: ["/adaptive_learning_cover.png", "/adaptive_learning_1_1775060342759.png", "/tech_generic_3_1775060544286.png", "/tech_generic_4_1775060561865.png", "/tech_generic_1_1775060487362.png"], auraColor: "rgba(139, 92, 246, 0.3)", scanColor: "#8b5cf6", borderColor: "violet-500", tagColors: [{ bg: "violet-500", text: "violet-500" }, { bg: "amber-500", text: "amber-500" }], hoverColor: "violet-500", icon: <Presentation className="w-8 h-8" />, categoryLabel: "EdTech AI" },
   { title: "AI Chatbott", desc: "Intelligent conversational agent with deep learning capabilities.", img: "/ai_contract_cover.png", tags: ['AI', 'NLP'], live: "#", repo: "https://github.com/RaniPatel16/ai-chatbott", galleryImgs: ["/ai_contract_cover.png", "/ai_contract_1_1775060384879.png", "/tech_generic_1_1775060487362.png", "/tech_generic_2_1775060512166.png", "/tech_generic_3_1775060544286.png"], auraColor: "rgba(245, 158, 11, 0.3)", scanColor: "#f59e0b", borderColor: "orange-500", tagColors: [{ bg: "orange-500", text: "orange-500" }, { bg: "violet-500", text: "violet-500" }], hoverColor: "amber-500", icon: <Brain className="w-8 h-8" />, categoryLabel: "AI Assistant" },
+  { title: "Notes Management API", desc: "A robust RESTful API for managing personal notes with full CRUD operations, bulk actions, and category-based filtering. Built with Node.js and MongoDB, featuring a professional MVC architecture and comprehensive Postman documentation.", img: "/tech_generic_4_1775060561865.png", tags: ['Node.js', 'MongoDB', 'REST API'], live: "https://notes-app-assignment-0gep.onrender.com", repo: "https://github.com/RaniPatel16/assignment1", postman: "https://rishab11250-8664884.postman.co/workspace/Rishab's-Workspace~91eef1b1-6e79-4e01-849a-bfcde19fed8d/documentation/50839472-f22e9d9c-0652-4b07-99de-b95140b866b1", galleryImgs: ["/tech_generic_4_1775060561865.png", "/tech_generic_1_1775060487362.png"], auraColor: "rgba(99, 102, 241, 0.3)", scanColor: "#6366f1", borderColor: "primary", tagColors: [{ bg: "indigo-500", text: "indigo-500" }, { bg: "emerald-500", text: "emerald-500" }], hoverColor: "primary", icon: <Code2 className="w-8 h-8" />, categoryLabel: "Backend System" },
 ]
 
 const designData = [
@@ -42,11 +43,16 @@ const designData = [
 ]
 
 const frontendData = [
-  { title: "LMS Clone", desc: "A comprehensive Learning Management System interface for managing courses and students.", link: "https://github.com/RaniPatel16/LMS-clone", deployment: "https://preeminent-donut-bfbc7e.netlify.app/", category: "EdTech" },
-  { title: "BigBasket Clone", desc: "Highly detailed grocery e-commerce frontend replica.", link: "https://github.com/RaniPatel16/fullwebsite/tree/main/website2/bigbasket", deployment: "https://bigbasketrani.netlify.app/", category: "E-Commerce" },
-  { title: "Porter Clone", desc: "Efficient logistics and delivery platform interface build.", link: "https://github.com/RaniPatel16/fullwebsite", deployment: "https://porterrani.netlify.app/", category: "Logistics" },
-  { title: "AI Chatbott", desc: "Interactive and responsive frontend for an AI-powered conversational agent.", link: "https://github.com/RaniPatel16/ai-chatbott", deployment: "#", category: "AI & Tech" },
-  { title: "Service Portal", desc: "Interactive service management interface for local businesses.", link: "https://github.com/RaniPatel16/fullwebsite/tree/main/website5", deployment: "#", category: "Web App" }
+  { title: "BBC News Clone", desc: "A pixel-perfect replica of the BBC News homepage focusing on complex layouts and responsiveness.", link: "https://github.com/RaniPatel16/fullwebsite/tree/main/website1", deployment: "https://bbcrani.netlify.app/", youtube: "https://www.youtube.com/watch?v=gnWBCmkPF44&t=12s", category: "News Portal" },
+  { title: "BigBasket Clone", desc: "Highly detailed grocery e-commerce frontend replica with product grids and category navigation.", link: "https://github.com/RaniPatel16/fullwebsite/tree/main/website2/bigbasket", deployment: "https://bigbasketrani.netlify.app/", youtube: "https://www.youtube.com/watch?v=lEPRguq0zVA&t=18s", category: "E-Commerce" },
+  { title: "Hammer Clone", desc: "Premium electronics listing platform replica featuring high-end gadget showcases.", link: "https://github.com/RaniPatel16/fullwebsite/tree/main/website4", deployment: "https://hammerrani.netlify.app/", youtube: "https://www.youtube.com/watch?v=eZhPrYYkNoc", category: "E-Commerce" },
+  { title: "Porter Clone", desc: "Efficient logistics and delivery platform interface build with service tracking UI.", link: "https://github.com/RaniPatel16/fullwebsite", deployment: "https://porterrani.netlify.app/", youtube: "https://www.youtube.com/watch?v=t-UYdnEztRA", category: "Logistics" },
+  { title: "Kore-AI Clone", desc: "Modern AI solutions landing page with interactive elements and cinematic styling.", link: "https://github.com/RaniPatel16/fullwebsite/tree/main/website6", deployment: "https://kore-airani.netlify.app/", youtube: "https://www.youtube.com/watch?v=zHx1Xmdqec8", category: "AI & Tech" }
+]
+
+const fullStackData = [
+  { title: "LMS Clone", desc: "A comprehensive Learning Management System for managing courses, students, and curriculum.", link: "https://github.com/RaniPatel16/LMS-clone", deployment: "https://preeminent-donut-bfbc7e.netlify.app/", category: "EdTech" },
+  { title: "AI Chatbott", desc: "Interactive and responsive full-stack system for an AI-powered conversational agent.", link: "https://github.com/RaniPatel16/ai-chatbott", deployment: "#", category: "AI & Tech" }
 ]
 
 function App() {
@@ -477,7 +483,7 @@ function App() {
           <Skills />
           <Journey />
           <Projects projects={projectData} onProjectClick={openProjectModal} />
-          <CreativeSector designs={designData} frontend={frontendData} />
+          <CreativeSector designs={designData} frontend={frontendData} fullstack={fullStackData} />
           <Certificates />
           <Contact />
           <Footer />

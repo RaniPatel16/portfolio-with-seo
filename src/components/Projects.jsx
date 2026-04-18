@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 import { ScrollText, Eye, ExternalLink, X } from 'lucide-react'
-import { YoutubeIcon, GithubIcon } from './BrandIcons'
+import { YoutubeIcon, GithubIcon, PostmanIcon } from './BrandIcons'
 
 function ProjectCard({ project, index, onClick }) {
   const [activeImg, setActiveImg] = useState(0)
@@ -108,6 +108,19 @@ function ProjectCard({ project, index, onClick }) {
             </div>
             <ExternalLink className="w-4 h-4 ml-auto text-slate-600 group-hover/opt:text-white transition-colors" />
           </a>
+          {project.postman && (
+            <a href={project.postman} target="_blank" rel="noreferrer" 
+               className="flex items-center gap-5 p-5 bg-white/5 hover:bg-white/10 rounded-[1.5rem] border border-white/10 transition-all group/opt">
+              <div className="w-12 h-12 rounded-xl bg-orange-500/20 flex items-center justify-center">
+                <PostmanIcon className="w-6 h-6 text-orange-500 group-hover/opt:scale-110 transition-transform" />
+              </div>
+              <div className="text-left">
+                <p className="text-white font-bold text-base leading-none mb-1">Postman Docs</p>
+                <p className="text-orange-500 text-[10px] font-black uppercase tracking-widest leading-none">API Reference</p>
+              </div>
+              <ExternalLink className="w-4 h-4 ml-auto text-slate-600 group-hover/opt:text-white transition-colors" />
+            </a>
+          )}
           <a href={project.live} target="_blank" rel="noreferrer" 
              className="flex items-center gap-5 p-5 bg-white/5 hover:bg-white/10 rounded-[1.5rem] border border-white/10 transition-all group/opt">
             <div className="w-12 h-12 rounded-xl bg-teal-500/20 flex items-center justify-center">
@@ -135,6 +148,7 @@ function ProjectCard({ project, index, onClick }) {
     </div>
   )
 }
+
 
 export default function Projects({ projects, onProjectClick }) {
   const [showAll, setShowAll] = useState(false)
